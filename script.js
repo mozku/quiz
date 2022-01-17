@@ -25,7 +25,7 @@ var objects = [
 
 function checkAnswer(input) {
     var isCorrect = false;
-    if (input == this.answer) {
+    if (input = this.answer) {
         isCorrect = true;
     }
     return isCorrect;
